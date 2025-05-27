@@ -4,8 +4,9 @@ Here are the instructions to start this application:
 
 type this into your terminal, replace audio_16k.wav with the name of the .wav audio file:
 
-pocketsphinx single \                                                             
+pocketsphinx_continuous \
+  -infile audio_16k.wav \
   -hmm /usr/local/share/pocketsphinx/model/en-us/en-us \
-  -lm stt_training_alphabet_model/alphabet.dmp \
+  -lm stt_training_alphabet_model/alphabet.lm.bin \
   -dict stt_training_alphabet_model/alphabet.dict \
-  audio_16k.wav > output.txt
+  > output.txt
