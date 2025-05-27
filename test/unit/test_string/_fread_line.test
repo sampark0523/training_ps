@@ -1,2 +1,0 @@
-#!/bin/bash
-exec ./strtest fread_line
