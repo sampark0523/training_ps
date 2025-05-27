@@ -8,4 +8,5 @@ pocketsphinx_continuous \
   -infile audio_16k.wav \
   -hmm /usr/local/share/pocketsphinx/model/en-us/en-us \
   -lm stt_training_alphabet_model/alphabet.lm.bin \
-  -dict stt_training_alphabet_model/alphabet.dict \ > output.txt
+  -dict stt_training_alphabet_model/alphabet.dict \ 
+  > output.txt
