@@ -9,3 +9,5 @@ pocketsphinx single \
 -lm stt_training_alphabet_model/alphabet.dmp \
 -dict stt_training_alphabet_model/alphabet.dict \
 audio_16k.wav > output.txt
+
+
